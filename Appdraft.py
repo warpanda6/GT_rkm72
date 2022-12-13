@@ -11,7 +11,7 @@ from PIL import Image
 
 # Visuals
 st.title("Are you a Linkedin User?")
-image = Image.open("C:/Users/rober/my_project/Linkedin.jfif")
+image = Image.open("https://github.com/warpanda6/GT_rkm72/blob/main/Linkedin.jfif")
 st.image(image, caption = "Connecting the World's professionals")
 
 ## Age
