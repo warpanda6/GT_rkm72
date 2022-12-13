@@ -11,7 +11,7 @@ from PIL import Image
 
 # Visuals
 st.title("Are you a Linkedin User?")
-image = Image.open("C:/Users/rober/OneDrive/Pictures/School/Linkedin.jfif")
+image = Image.open("C:/Users/rober/my_project/Linkedin.jfif")
 st.image(image, caption = "Connecting the World's professionals")
 
 ## Age
@@ -112,7 +112,7 @@ else:
 #Bring on the code
 
 #Import Data
-s = pd.read_csv("C:/Users/rober/OneDrive/Desktop/Georgetown/Win22/ProgrammingII/Final/social_media_usage.csv")
+s = pd.read_csv("C:/Users/rober/my_project/social_media_usage.csv")
 
 #clean
 def clean_sm(x):
