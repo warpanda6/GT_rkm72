@@ -112,7 +112,7 @@ else:
 #Bring on the code
 
 #Import Data
-s = pd.read_csv("C:/Users/rober/my_project/social_media_usage.csv")
+s = pd.read_csv("https://github.com/warpanda6/GT_rkm72/blob/main/social_media_usage.csv")
 
 #clean
 def clean_sm(x):
